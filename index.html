@@ -726,4 +726,14 @@ onAuthStateChanged(auth,async x=>{
     $("msg").textContent="Giriş başarılı ✓ (veriler yüklenirken hata oluştu)";
   }
 });
+</script><link rel="manifest" href="/YKS-PRO-3.01/manifest.json">
+
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("/YKS-PRO-3.01/sw.js")
+      .then(() => console.log("YKS PRO Service Worker aktif"))
+      .catch((error) => console.error("Service Worker hatası:", error));
+  });
+}
 </script></body></html>
