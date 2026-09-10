@@ -1,0 +1,12 @@
+{
+  "name": "YKS PRO 3.0",
+  "short_name": "YKS PRO",
+  "description": "Akıllı YKS takip ve çalışma sistemi",
+  "start_url": "/YKS-PRO-3.01/",
+  "scope": "/YKS-PRO-3.01/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#080a20",
+  "theme_color": "#080a20",
+  "lang": "tr"
+}
