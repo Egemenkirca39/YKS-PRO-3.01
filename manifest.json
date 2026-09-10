@@ -8,5 +8,12 @@
   "orientation": "portrait",
   "background_color": "#080a20",
   "theme_color": "#080a20",
-  "lang": "tr"
+  "lang": "tr",
+  "icons": [
+    {
+      "src": "/YKS-PRO-3.01/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
